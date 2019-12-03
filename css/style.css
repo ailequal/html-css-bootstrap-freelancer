@@ -65,9 +65,13 @@ body {
   text-transform: uppercase;
 }
 
-.portfolio .feature {
-  height: 100px;
-  background-color: azure;
+.portfolio .box {
+  padding: 10px 0;
+}
+
+.portfolio img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* footer */
