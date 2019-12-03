@@ -60,6 +60,10 @@ body {
   display: inline-block;
 }
 
+.portfolio {
+  padding-bottom: 50px;
+}
+
 .portfolio .title {
   text-align: center;
   text-transform: uppercase;
@@ -72,6 +76,12 @@ body {
 .portfolio img {
   width: 100%;
   border-radius: 10px;
+}
+
+.about {
+  background-color: #1abc9c;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 /* footer */
