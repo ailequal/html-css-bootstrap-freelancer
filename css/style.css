@@ -1,0 +1,63 @@
+/* debug */
+.debug .container,
+.debug .container-fluid,
+.debug-no-height .container,
+.debug-no-height .container-fluid {
+  border: 1px solid red;
+  background: pink;
+}
+
+.debug .container [class*="col-"] {
+  height: 300px;
+  border: 1px solid blue;
+}
+
+.debug-no-height .container [class*="col-"] {
+  border: 1px solid blue;
+}
+
+/* general */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* .clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+} */
+
+/* header */
+/* empty */
+
+/* main */
+/* large */
+@media screen and (min-width: 1080px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+/* medium */
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  body {
+    font-size: 0.9em;
+  }
+}
+
+/* small */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.8em;
+  }
+}
+
+/* footer */
+/* empty */
