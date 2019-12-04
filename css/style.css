@@ -201,13 +201,23 @@ body {
 }
 
 .about {
+  padding: 50px 0;
   background-color: #1abc9c;
   text-align: center;
   color: #FFFFFF;
 }
 
+.about h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .about p {
+  max-width: 500px;
+  margin: auto;
   text-align: left;
+  font-size: 20px;
 }
 
 .about a {
@@ -216,6 +226,14 @@ body {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
 }
+
+.about p {
+  margin-bottom: 30px;
+}
+
+/* .about .row:last-child {
+  margin-top: 30px;
+} */
 
 .contact_me {
   color: #2c3e50;
