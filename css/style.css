@@ -84,5 +84,24 @@ body {
   color: #FFFFFF;
 }
 
+.about p {
+  text-align: left;
+}
+
+.about a {
+  padding: 12px 18px;
+  background-color: #1abc9c;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.contact_me {
+  color: #2c3e50
+}
+
+.contact-me h2 {
+  text-align: center;
+}
+
 /* footer */
 /* empty */
