@@ -115,7 +115,6 @@ body {
 .start_bootstrap {
   color: #FFFFFF;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .start_bootstrap .background_color {
@@ -128,6 +127,7 @@ body {
 
 .start_bootstrap h1 {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .start_bootstrap h2 {
@@ -223,8 +223,10 @@ body {
 .about a {
   padding: 12px 18px;
   background-color: #1abc9c;
-  border: 1px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
   color: #FFFFFF;
+  font-size: 20px;
 }
 
 .about a:hover {
@@ -281,14 +283,15 @@ body {
 
 .info .social a {
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 55px;
+  width: 55px;
   color: #FFFFFF;
   font-size: 24px;
   text-decoration: none;
-  margin: 0 14px;
+  margin: 0 5px;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
+  line-height: 50px;
 }
 
 .info .social a:hover {
