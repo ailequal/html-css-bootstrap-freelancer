@@ -227,6 +227,11 @@ body {
   color: #FFFFFF;
 }
 
+.about a:hover {
+  background-color: #FFFFFF;
+  color: #2c3e50;
+}
+
 .about p {
   margin-bottom: 30px;
 }
@@ -236,6 +241,7 @@ body {
 } */
 
 .contact_me {
+  margin: 40px 0;
   color: #2c3e50;
 }
 
@@ -274,12 +280,24 @@ body {
 }
 
 .info .social a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
   color: #FFFFFF;
   font-size: 24px;
   text-decoration: none;
   margin: 0 14px;
-  border: 1px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 50%;
+}
+
+.info .social a:hover {
+  background-color: #FFFFFF;
+  color: #2c3e50;
+}
+
+.info .social a i {
+  vertical-align: middle;
 }
 
 .info p > a {
